@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <link href="./script.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>List Ordered</h1>
+        <ol>
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+        </ol>
+
+        <h1>List Not Ordered</h1>
+        <ul>
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+        </ul>
+        <h1>Table</h1>
+        <table>
+            <tr>
+                <th class="align-table-three-items">Name</th>
+                <th class="align-table-three-items">Boot camp</th>
+                <th class="align-table-three-items">City</th>
+            </tr>
+            <tr>
+                <td>Jose Perez</td>
+                <td>FullStack WebDev</td>
+                <td>Madrid</td>
+            </tr>
+            <tr>
+                <td>Michael Smith</td>
+                <td>FrontEnd WebDev</td>
+                <td>Barcelona</td>
+            </tr>
+            <tr>
+                <td>Ariel Quinones</td>
+                <td>MasterChef WebDev</td>
+                <td>Miami</td>
+            </tr>
+        </table>
+        <div>
+            <h1>Label</h1>
+            <form action="" method="post">
+                <label for="name">Name:</label>
+                <input class="align-input" id="name" type="text" />
+                <button type="submit">Save</button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h1>Types Input</h1>
+            <table>
+                <tr>
+                    <th class="align-table-two-items">Name</th>
+                    <th class="align-table-two-items">Result</th>
+                </tr>
+                <tr>
+                    <td>button</td>
+                    <td>
+                        <input type="button" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>CheckBox</td>
+                    <td>
+                        <input type="checkbox" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>color</td>
+                    <td>
+                        <input type="color" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>date</td>
+                    <td>
+                        <input type="date" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>datetime-local</td>
+                    <td>
+                        <input type="datetime-local" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>email</td>
+                    <td>
+                        <input type="email" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>file</td>
+                    <td>
+                        <input type="file" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>hidden</td>
+                    <td>
+                        <input type="hidden" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>datetime-local</td>
+                    <td>
+                        <input type="datetime-local" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>datetime-local</td>
+                    <td>
+                        <input type="datetime-local" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>image</td>
+                    <td>
+                        <input type="image" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>month</td>
+                    <td>
+                        <input type="month" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>number</td>
+                    <td>
+                        <input type="number" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>password</td>
+                    <td>
+                        <input type="password" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>radio</td>
+                    <td>
+                        <input type="radio" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>range</td>
+                    <td>
+                        <input type="range" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>reset</td>
+                    <td>
+                        <input type="reset" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>search</td>
+                    <td>
+                        <input type="search" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>submit</td>
+                    <td>
+                        <input type="submit" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>tel</td>
+                    <td>
+                        <input type="tel" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>text</td>
+                    <td>
+                        <input type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>time</td>
+                    <td>
+                        <input type="time" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>url</td>
+                    <td>
+                        <input type="url" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>week</td>
+                    <td>
+                        <input type="week" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h1>Select</h1>
+            <label>
+          Reservation for:
+          <input
+            class="align-input-select"
+            type="text"
+            name="name"
+            value="Your name"
+          />
+        </label>
+
+            <label>
+          Meal:
+          <select name="meal">
+            <option value="breakfast">Breakfast</option>
+            <option value="tea-time">Tea Time</option>
+          </select>
+        </label>
+
+            <label>
+          How many people?
+          <select name="how-many">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </label>
+
+            <button type="submit">Submit Reservation</button>
+        </div>
+    </main>
+    <footer>
+        <h1>Date</h1>
+        <p>
+            We are open every day of the week from <time>8:00</time> to
+            <time>22:00</time>
+        </p>
+    </footer>
+</body>
+
+</html>

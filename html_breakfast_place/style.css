@@ -1,0 +1,34 @@
+body {
+    background-color: #58faac;
+}
+
+.center {
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.marginLeft {
+    margin-left: 10px;
+}
+
+.marginLeftImage {
+    margin-left: 45px;
+}
+
+a {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+figcaption {
+    padding-bottom: 50px;
+}
